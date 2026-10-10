@@ -1,0 +1,19 @@
+MicQuill End User License Agreement (v0.1, 2026)
+
+1. License. On purchase you receive a personal, non-exclusive, non-transferable license to install and use
+   MicQuill on computers you own or control. One license per person. Team licenses are sold separately.
+2. Restrictions. You may not redistribute, resell, sublicense, or publicly host the software, or remove this
+   notice. You may not use it to transcribe material you have no right to process.
+3. Open-source components. MicQuill bundles open-source software under their own licenses, including
+   faster-whisper (MIT), CTranslate2 (MIT), yt-dlp (Unlicense), and FFmpeg (LGPL 2.1+; its source is available
+   from ffmpeg.org). Those licenses govern those components. Whisper model weights are provided by OpenAI under
+   the MIT license and are downloaded on first use.
+4. Privacy. MicQuill processes files on your computer. It contacts the internet only to download models on
+   first use and to fetch media from links you add.
+5. No warranty. The software is provided "as is", without warranty of any kind. Transcripts may contain errors;
+   check them before relying on them.
+6. Liability. To the extent permitted by law, the licensor is not liable for indirect or consequential damages,
+   and total liability is limited to the price you paid.
+7. Refunds. If it does not work on your machine, contact us within 14 days for a full refund.
+
+Licensor: the MicQuill seller named on your receipt.

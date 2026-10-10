@@ -1,0 +1,45 @@
+MicQuill - third-party software notices
+=======================================
+
+MicQuill is proprietary software (see LICENSE.txt). It is built with the open-source components below, which remain
+under their own licenses. Nothing in MicQuill's license restricts the rights those licenses grant you, including the
+LGPL's right to replace or reverse engineer the FFmpeg library parts.
+
+1. FFmpeg (ffmpeg.exe, bundled in the _internal folder beside MicQuill.exe) - GNU Lesser General Public License v2.1 or later
+   This software uses code of FFmpeg (https://ffmpeg.org), licensed under the LGPLv2.1 (https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html).
+   The bundled binary is an LGPL build (configured without --enable-gpl or --enable-nonfree) from the BtbN FFmpeg-Builds
+   project (https://github.com/BtbN/FFmpeg-Builds). Its exact configuration is printed at the end of this file.
+   Source code: https://ffmpeg.org/download.html#releases (matching version) and the BtbN build scripts above.
+   MicQuill runs ffmpeg.exe as a separate program and does not link against FFmpeg libraries.
+   Copyright (c) 2000-2026 the FFmpeg developers.
+
+2. faster-whisper - MIT License. Copyright (c) 2023 SYSTRAN. https://github.com/SYSTRAN/faster-whisper
+3. CTranslate2 - MIT License. Copyright (c) 2018-present SYSTRAN and the OpenNMT authors. https://github.com/OpenNMT/CTranslate2
+4. Whisper (model architecture and tokenizer) - MIT License. Copyright (c) 2022 OpenAI. https://github.com/openai/whisper
+5. Whisper model weights (CTranslate2 format, downloaded on first use from https://huggingface.co/Systran) - MIT License, SYSTRAN.
+6. Silero VAD (voice activity model shipped with faster-whisper) - MIT License. https://github.com/snakers4/silero-vad
+7. ONNX Runtime - MIT License. Copyright (c) Microsoft Corporation. https://github.com/microsoft/onnxruntime
+8. NumPy - BSD 3-Clause License. Copyright (c) 2005-2026, NumPy Developers. https://numpy.org
+9. tokenizers and huggingface_hub - Apache License 2.0. Copyright Hugging Face. https://github.com/huggingface
+10. yt-dlp - The Unlicense (public domain). https://github.com/yt-dlp/yt-dlp
+11. Python 3.12 and its standard library - Python Software Foundation License. https://www.python.org/psf/license/
+12. Tcl/Tk - Tcl/Tk License (BSD-style). https://www.tcl.tk/software/tcltk/license.html
+13. PyInstaller bootloader - GPL v2 with the bootloader exception that permits bundling proprietary programs. https://pyinstaller.org/en/stable/license.html
+14. oneDNN (used by CTranslate2 on CPU) - Apache License 2.0. Copyright Intel Corporation. https://github.com/oneapi-src/oneDNN
+15. OpenSSL (libcrypto, used by Python's ssl module) - Apache License 2.0. https://www.openssl.org
+
+MIT License text (items 2-7):
+  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+  documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+  persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and
+  this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED
+  "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+  ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Apache License 2.0 (items 9, 14, 15): https://www.apache.org/licenses/LICENSE-2.0
+BSD 3-Clause (item 8): https://opensource.org/license/bsd-3-clause
+
+Full license texts for every bundled Python package are available on request at the support address in SUPPORT.md.
